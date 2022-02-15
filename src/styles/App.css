@@ -1,0 +1,84 @@
+body {
+  background-image: url('../images/paperback.jpg');
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  background-color: rgba(247, 252, 252, 0.76);
+  max-width: 480px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: rgb(73, 80, 87);
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 400px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.form-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#input-form {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-align: center;
+}
+#add-button {
+  text-align: center;
+  color: rgb(27, 21, 13);
+  background-color: rgba(226, 142, 32, 0.61);
+  border-radius: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.list-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  list-style: none;
+  margin: auto;
+}
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.buttons-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+h4 {
+  width: 200px;
+  margin: 5px;
+}
+
+.completed {
+  color: rgb(223, 121, 121);
+}
+.inProgress {
+  color: rgb(43, 143, 43);
+}
+#delete-button {
+  color: rgb(103, 107, 110);
+}
