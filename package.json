@@ -9,9 +9,12 @@
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.4.1",
     "@mui/material": "^5.4.1",
+    "@testing-library/react": "^12.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.0",
+    "react-test-renderer": "^17.0.2",
+    "react-update": "^0.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "jest-dom": "^4.0.0"
+  }
 }
